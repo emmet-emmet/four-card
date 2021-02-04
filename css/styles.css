@@ -1,0 +1,114 @@
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+text-align: center;
+
+}
+.par-heading {
+  padding: 0 30%;
+  color: hsl(229, 6%, 66%);
+  margin: 20px 0 50px 0;
+}
+
+.h11-heading {
+  font-weight: 100;
+padding-top: 20px;
+position: relative;
+top: 10px;
+opacity: 0.6;
+}
+.h12-heading {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+/*******************cards*************/
+.row {
+  margin: 100px 0 20px 30px;
+}
+ .card {
+width: 400px;
+height: 280px;
+margin-left: 20px;
+box-shadow: 5px 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+color: hsl(0, 0%, 98%);
+border-radius: 10px;
+}
+
+.car4 {
+
+  border-top: 3px solid;
+  border-top-color: hsl(34, 97%, 64%);
+  margin-top: 20px;
+position: relative;
+left: 420px;
+}
+.car1 {
+  position: relative;
+  top: 150px;
+  border-top: 3px solid;
+  border-top-color: hsl(180, 62%, 55%)
+}
+.car2 {
+  border-top: 3px solid;
+  border-top-color: hsl(0, 78%, 62%)
+}
+.car3 {
+  position: relative;
+  top: 150px;
+  border-top: 3px solid;
+  border-top-color: hsl(212, 86%, 64%)
+}
+/***************item***********/
+h3 {
+
+  font-size: 1.5rem;
+  margin: 20px 0 0 20px;
+  color: hsl(234, 12%, 34%);
+}
+p {
+color: hsl(229, 6%, 66%);
+
+  margin: 20px 0 0 20px;
+}
+.image {
+  position: relative;
+  top: 50px;
+  left: 250px;
+}
+/*************media queriii**********/
+@media (max-width: 1000px) {
+  .car3 {
+display: block;
+left: auto;
+top: auto;
+}
+
+  .car4 {
+display: block;
+left: auto;
+top: auto;
+}
+
+  .car2 {
+display: block;
+left: auto;
+top: auto;
+}
+
+  .car1 {
+display: block;
+left: auto;
+top: auto;
+
+}
+
+}
+/*********name**************/
+.name {
+  font-size: 10px;
+  padding: 10px;
+}
